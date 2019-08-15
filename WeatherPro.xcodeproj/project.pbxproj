@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0E33B223024395004B7BBD /* fanhui-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0E33B123024394004B7BBD /* fanhui-2.png */; };
+		7C0E33B82302EFF3004B7BBD /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E33B72302EFF3004B7BBD /* SearchTableViewCell.m */; };
+		7C2F46F72303969200EBD2B6 /* HourlyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F46F62303969200EBD2B6 /* HourlyModel.m */; };
+		7C2F46FD2303FAE400EBD2B6 /* 晴.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F46FC2303FAE400EBD2B6 /* 晴.png */; };
+		7C2F46FF2303FB8400EBD2B6 /* 多云.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F46FE2303FB8400EBD2B6 /* 多云.png */; };
+		7C2F47012303FB8400EBD2B6 /* 雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F47002303FB8400EBD2B6 /* 雨.png */; };
+		7C2F4703230426DC00EBD2B6 /* 31565781833_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F4702230426DB00EBD2B6 /* 31565781833_.pic.jpg */; };
+		7C2F4705230426F000EBD2B6 /* 41565781834_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F4704230426F000EBD2B6 /* 41565781834_.pic.jpg */; };
+		7C2F4707230426F300EBD2B6 /* 51565781835_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F4706230426F300EBD2B6 /* 51565781835_.pic.jpg */; };
+		7C2F4709230426FD00EBD2B6 /* 61565781836_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F4708230426FD00EBD2B6 /* 61565781836_.pic.jpg */; };
+		7C2F470B2304270300EBD2B6 /* 71565781838_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F470A2304270300EBD2B6 /* 71565781838_.pic.jpg */; };
+		7C2F47142304283500EBD2B6 /* OpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F47132304283500EBD2B6 /* OpenViewController.m */; };
+		7C7A986B230164770073B13F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A986A230164770073B13F /* AppDelegate.m */; };
+		7C7A986E230164770073B13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A986D230164770073B13F /* ViewController.m */; };
+		7C7A9871230164770073B13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A986F230164770073B13F /* Main.storyboard */; };
+		7C7A9873230164810073B13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A9872230164810073B13F /* Assets.xcassets */; };
+		7C7A9876230164810073B13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A9874230164810073B13F /* LaunchScreen.storyboard */; };
+		7C7A9879230164810073B13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A9878230164810073B13F /* main.m */; };
+		7C7A9881230165640073B13F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A9880230165640073B13F /* HomeViewController.m */; };
+		7C7A98842301678E0073B13F /* homeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A98832301678E0073B13F /* homeTableViewCell.m */; };
+		7C7A9887230187700073B13F /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A9886230187700073B13F /* TimeModel.m */; };
+		7C7A988D23018C530073B13F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A988C23018C530073B13F /* SearchViewController.m */; };
+		7C7A988F230193AF0073B13F /* add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A988E230193AF0073B13F /* add_icon.png */; };
+		7C7A9891230195780073B13F /* quxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A9890230195780073B13F /* quxiao.png */; };
+		7C7A9893230195EC0073B13F /* sousuo-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A9892230195EC0073B13F /* sousuo-3.png */; };
+		7C7A98962301B76C0073B13F /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A98952301B76C0073B13F /* MoreViewController.m */; };
+		7C7A98992301BA500073B13F /* MoreoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A98982301BA500073B13F /* MoreoneTableViewCell.m */; };
+		7C7A989C2301BA850073B13F /* TableViewtwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A989B2301BA850073B13F /* TableViewtwoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C0E33B123024394004B7BBD /* fanhui-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanhui-2.png"; sourceTree = "<group>"; };
+		7C0E33B62302EFF3004B7BBD /* SearchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		7C0E33B72302EFF3004B7BBD /* SearchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		7C2F46F52303969200EBD2B6 /* HourlyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HourlyModel.h; sourceTree = "<group>"; };
+		7C2F46F62303969200EBD2B6 /* HourlyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HourlyModel.m; sourceTree = "<group>"; };
+		7C2F46FC2303FAE400EBD2B6 /* 晴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "晴.png"; sourceTree = "<group>"; };
+		7C2F46FE2303FB8400EBD2B6 /* 多云.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多云.png"; sourceTree = "<group>"; };
+		7C2F47002303FB8400EBD2B6 /* 雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雨.png"; sourceTree = "<group>"; };
+		7C2F4702230426DB00EBD2B6 /* 31565781833_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31565781833_.pic.jpg; sourceTree = "<group>"; };
+		7C2F4704230426F000EBD2B6 /* 41565781834_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 41565781834_.pic.jpg; sourceTree = "<group>"; };
+		7C2F4706230426F300EBD2B6 /* 51565781835_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 51565781835_.pic.jpg; sourceTree = "<group>"; };
+		7C2F4708230426FD00EBD2B6 /* 61565781836_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 61565781836_.pic.jpg; sourceTree = "<group>"; };
+		7C2F470A2304270300EBD2B6 /* 71565781838_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 71565781838_.pic.jpg; sourceTree = "<group>"; };
+		7C2F47122304283500EBD2B6 /* OpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenViewController.h; sourceTree = "<group>"; };
+		7C2F47132304283500EBD2B6 /* OpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenViewController.m; sourceTree = "<group>"; };
+		7C7A9866230164770073B13F /* WeatherPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7A9869230164770073B13F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C7A986A230164770073B13F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C7A986C230164770073B13F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C7A986D230164770073B13F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C7A9870230164770073B13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C7A9872230164810073B13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C7A9875230164810073B13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C7A9877230164810073B13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7A9878230164810073B13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C7A987F230165640073B13F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7C7A9880230165640073B13F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7C7A98822301678E0073B13F /* homeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTableViewCell.h; sourceTree = "<group>"; };
+		7C7A98832301678E0073B13F /* homeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTableViewCell.m; sourceTree = "<group>"; };
+		7C7A9885230187700073B13F /* TimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		7C7A9886230187700073B13F /* TimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		7C7A988B23018C530073B13F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		7C7A988C23018C530073B13F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		7C7A988E230193AF0073B13F /* add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon.png; sourceTree = "<group>"; };
+		7C7A9890230195780073B13F /* quxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quxiao.png; sourceTree = "<group>"; };
+		7C7A9892230195EC0073B13F /* sousuo-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sousuo-3.png"; sourceTree = "<group>"; };
+		7C7A98942301B76C0073B13F /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		7C7A98952301B76C0073B13F /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		7C7A98972301BA500073B13F /* MoreoneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreoneTableViewCell.h; sourceTree = "<group>"; };
+		7C7A98982301BA500073B13F /* MoreoneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreoneTableViewCell.m; sourceTree = "<group>"; };
+		7C7A989A2301BA850073B13F /* TableViewtwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewtwoCell.h; sourceTree = "<group>"; };
+		7C7A989B2301BA850073B13F /* TableViewtwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewtwoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C7A9863230164760073B13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C7A985D230164760073B13F = {
+			isa = PBXGroup;
+			children = (
+				7C7A9868230164770073B13F /* WeatherPro */,
+				7C7A9867230164770073B13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C7A9867230164770073B13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C7A9866230164770073B13F /* WeatherPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C7A9868230164770073B13F /* WeatherPro */ = {
+			isa = PBXGroup;
+			children = (
+				7C2F4706230426F300EBD2B6 /* 51565781835_.pic.jpg */,
+				7C2F4704230426F000EBD2B6 /* 41565781834_.pic.jpg */,
+				7C2F4702230426DB00EBD2B6 /* 31565781833_.pic.jpg */,
+				7C2F4708230426FD00EBD2B6 /* 61565781836_.pic.jpg */,
+				7C2F470A2304270300EBD2B6 /* 71565781838_.pic.jpg */,
+				7C2F46FC2303FAE400EBD2B6 /* 晴.png */,
+				7C2F46FE2303FB8400EBD2B6 /* 多云.png */,
+				7C7A988E230193AF0073B13F /* add_icon.png */,
+				7C2F47002303FB8400EBD2B6 /* 雨.png */,
+				7C7A9890230195780073B13F /* quxiao.png */,
+				7C7A9892230195EC0073B13F /* sousuo-3.png */,
+				7C0E33B123024394004B7BBD /* fanhui-2.png */,
+				7C7A9869230164770073B13F /* AppDelegate.h */,
+				7C7A986A230164770073B13F /* AppDelegate.m */,
+				7C0E33B62302EFF3004B7BBD /* SearchTableViewCell.h */,
+				7C2F47122304283500EBD2B6 /* OpenViewController.h */,
+				7C2F47132304283500EBD2B6 /* OpenViewController.m */,
+				7C0E33B72302EFF3004B7BBD /* SearchTableViewCell.m */,
+				7C7A988B23018C530073B13F /* SearchViewController.h */,
+				7C7A988C23018C530073B13F /* SearchViewController.m */,
+				7C7A987F230165640073B13F /* HomeViewController.h */,
+				7C7A9880230165640073B13F /* HomeViewController.m */,
+				7C7A98942301B76C0073B13F /* MoreViewController.h */,
+				7C7A98952301B76C0073B13F /* MoreViewController.m */,
+				7C7A98972301BA500073B13F /* MoreoneTableViewCell.h */,
+				7C7A98982301BA500073B13F /* MoreoneTableViewCell.m */,
+				7C7A989A2301BA850073B13F /* TableViewtwoCell.h */,
+				7C7A989B2301BA850073B13F /* TableViewtwoCell.m */,
+				7C7A98822301678E0073B13F /* homeTableViewCell.h */,
+				7C7A98832301678E0073B13F /* homeTableViewCell.m */,
+				7C2F46F52303969200EBD2B6 /* HourlyModel.h */,
+				7C2F46F62303969200EBD2B6 /* HourlyModel.m */,
+				7C7A9885230187700073B13F /* TimeModel.h */,
+				7C7A9886230187700073B13F /* TimeModel.m */,
+				7C7A986C230164770073B13F /* ViewController.h */,
+				7C7A986D230164770073B13F /* ViewController.m */,
+				7C7A986F230164770073B13F /* Main.storyboard */,
+				7C7A9872230164810073B13F /* Assets.xcassets */,
+				7C7A9874230164810073B13F /* LaunchScreen.storyboard */,
+				7C7A9877230164810073B13F /* Info.plist */,
+				7C7A9878230164810073B13F /* main.m */,
+			);
+			path = WeatherPro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C7A9865230164760073B13F /* WeatherPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C7A987C230164810073B13F /* Build configuration list for PBXNativeTarget "WeatherPro" */;
+			buildPhases = (
+				7C7A9862230164760073B13F /* Sources */,
+				7C7A9863230164760073B13F /* Frameworks */,
+				7C7A9864230164760073B13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherPro;
+			productName = WeatherPro;
+			productReference = 7C7A9866230164770073B13F /* WeatherPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C7A985E230164760073B13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "岳靖翔";
+				TargetAttributes = {
+					7C7A9865230164760073B13F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C7A9861230164760073B13F /* Build configuration list for PBXProject "WeatherPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C7A985D230164760073B13F;
+			productRefGroup = 7C7A9867230164770073B13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C7A9865230164760073B13F /* WeatherPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C7A9864230164760073B13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2F4709230426FD00EBD2B6 /* 61565781836_.pic.jpg in Resources */,
+				7C2F46FD2303FAE400EBD2B6 /* 晴.png in Resources */,
+				7C7A988F230193AF0073B13F /* add_icon.png in Resources */,
+				7C7A9876230164810073B13F /* LaunchScreen.storyboard in Resources */,
+				7C7A9891230195780073B13F /* quxiao.png in Resources */,
+				7C2F470B2304270300EBD2B6 /* 71565781838_.pic.jpg in Resources */,
+				7C2F4705230426F000EBD2B6 /* 41565781834_.pic.jpg in Resources */,
+				7C2F47012303FB8400EBD2B6 /* 雨.png in Resources */,
+				7C7A9873230164810073B13F /* Assets.xcassets in Resources */,
+				7C2F46FF2303FB8400EBD2B6 /* 多云.png in Resources */,
+				7C2F4707230426F300EBD2B6 /* 51565781835_.pic.jpg in Resources */,
+				7C2F4703230426DC00EBD2B6 /* 31565781833_.pic.jpg in Resources */,
+				7C7A9871230164770073B13F /* Main.storyboard in Resources */,
+				7C0E33B223024395004B7BBD /* fanhui-2.png in Resources */,
+				7C7A9893230195EC0073B13F /* sousuo-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C7A9862230164760073B13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2F46F72303969200EBD2B6 /* HourlyModel.m in Sources */,
+				7C7A986E230164770073B13F /* ViewController.m in Sources */,
+				7C7A98992301BA500073B13F /* MoreoneTableViewCell.m in Sources */,
+				7C7A98962301B76C0073B13F /* MoreViewController.m in Sources */,
+				7C7A9879230164810073B13F /* main.m in Sources */,
+				7C7A986B230164770073B13F /* AppDelegate.m in Sources */,
+				7C2F47142304283500EBD2B6 /* OpenViewController.m in Sources */,
+				7C0E33B82302EFF3004B7BBD /* SearchTableViewCell.m in Sources */,
+				7C7A98842301678E0073B13F /* homeTableViewCell.m in Sources */,
+				7C7A989C2301BA850073B13F /* TableViewtwoCell.m in Sources */,
+				7C7A9887230187700073B13F /* TimeModel.m in Sources */,
+				7C7A9881230165640073B13F /* HomeViewController.m in Sources */,
+				7C7A988D23018C530073B13F /* SearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C7A986F230164770073B13F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C7A9870230164770073B13F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C7A9874230164810073B13F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C7A9875230164810073B13F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C7A987A230164810073B13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C7A987B230164810073B13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C7A987D230164810073B13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeatherPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = c.WeatherPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C7A987E230164810073B13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeatherPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = c.WeatherPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C7A9861230164760073B13F /* Build configuration list for PBXProject "WeatherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C7A987A230164810073B13F /* Debug */,
+				7C7A987B230164810073B13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C7A987C230164810073B13F /* Build configuration list for PBXNativeTarget "WeatherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C7A987D230164810073B13F /* Debug */,
+				7C7A987E230164810073B13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C7A985E230164760073B13F /* Project object */;
+}
